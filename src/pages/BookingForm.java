@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 public class BookingForm {
     private WebDriver driver;
 
-    BookingForm(WebDriver x) {
+    public BookingForm(WebDriver x) {
         driver = x;
     }
 

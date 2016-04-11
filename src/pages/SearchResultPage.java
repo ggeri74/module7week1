@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 public class SearchResultPage {
     private WebDriver driver;
 
-    SearchResultPage(WebDriver x) {
+    public SearchResultPage(WebDriver x) {
         driver = x;
     }
 

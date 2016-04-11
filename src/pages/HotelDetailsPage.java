@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 public class HotelDetailsPage {
     private WebDriver driver;
 
-    HotelDetailsPage(WebDriver x) {
+    public HotelDetailsPage(WebDriver x) {
         driver = x;
     }
 

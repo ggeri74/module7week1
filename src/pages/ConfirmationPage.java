@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 public class ConfirmationPage {
     private WebDriver driver;
 
-    ConfirmationPage(WebDriver x) {
+    public ConfirmationPage(WebDriver x) {
         driver = x;
     }
 
