@@ -5,20 +5,20 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class HomePage {
-    WebDriver driver;
+    private WebDriver driver;
 
     public HomePage(WebDriver x) {
         driver = x;
     }
 
-    By destinationField = By.id("qf-0q-destination");
-    By autoSuggestFirstItem = By.cssSelector(".autosuggest-category-result");
-    By checkinField = By.id("qf-0q-localised-check-in");
-    By checkoutField = By.id("qf-0q-localised-check-out");
-    By searchButton = By.cssSelector("[type=submit]");
-    By headerBar = By.id("header-bar");
+    private By destinationField = By.id("qf-0q-destination");
+    private By autoSuggestFirstItem = By.cssSelector(".autosuggest-category-result");
+    private By checkinField = By.id("qf-0q-localised-check-in");
+    private By checkoutField = By.id("qf-0q-localised-check-out");
+    private By searchButton = By.cssSelector("[type=submit]");
+    private By headerBar = By.id("header-bar");
 
-    public void fillDestinationField(String destination) {
+    public void fillDestination(String destination) {
         driver.findElement(destinationField).sendKeys(destination);
     }
 
@@ -40,7 +40,7 @@ public class HomePage {
         clickHeaderBar(); // to close date picker
     }
 
-    public void clickHeaderBar() {
+    private void clickHeaderBar() {
         driver.findElement(headerBar).click();
     }
 

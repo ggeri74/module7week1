@@ -51,7 +51,7 @@ public class TestHotelsCom {
     }
 
 
-    public void testEndToEndBookingFlow(RemoteWebDriver driver) {
+    private void testEndToEndBookingFlow(RemoteWebDriver driver) {
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://hotels.com/?locale=en_US&pos=HCOM_US");
@@ -59,7 +59,7 @@ public class TestHotelsCom {
         // ----------------- Search for suitable hotel, moving to the search result page -------------------------
 
         HomePage hp = new HomePage(driver);
-        hp.fillDestinationField("Budapest Hungary");
+        hp.fillDestination("Budapest Hungary");
         hp.clickFirstAutoSuggestItem();
         String selectedAutoSuggestItem = hp.getDestinationFieldContent();
         hp.fillCheckin("12/22/16");

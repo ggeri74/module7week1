@@ -4,15 +4,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
 public class SearchResultPage {
-    WebDriver driver;
+    private WebDriver driver;
 
-    public SearchResultPage(WebDriver x) {
+    SearchResultPage(WebDriver x) {
         driver = x;
     }
 
-    By summaryHeading = By.cssSelector(".summary>h1");
-    By chooseRoomButton = By.cssSelector(".cta>span");
-    By selectedHotelName = By.cssSelector(".p-name>a");
+    private By summaryHeading = By.cssSelector(".summary>h1");
+    private By chooseRoomButton = By.cssSelector(".cta>span");
+    private By selectedHotelName = By.cssSelector(".p-name>a");
 
 
     public String getSummaryHeadingText() {

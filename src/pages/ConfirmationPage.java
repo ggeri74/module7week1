@@ -6,13 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
 public class ConfirmationPage {
-    WebDriver driver;
+    private WebDriver driver;
 
     public ConfirmationPage(WebDriver x) {
         driver = x;
     }
 
-    By confirmationMessageBox = By.className("bdc-assurance");
+    private By confirmationMessageBox = By.className("bdc-assurance");
 
     public boolean isConfirmationMessageBoxDisplayed() {
         try {

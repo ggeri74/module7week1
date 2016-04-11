@@ -5,17 +5,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 
 public class HotelDetailsPage {
-    WebDriver driver;
+    private WebDriver driver;
 
     public HotelDetailsPage(WebDriver x) {
         driver = x;
     }
 
-    By displayedHotelName = By.cssSelector(".vcard>h1");
-    By firstRoomName = By.cssSelector("[class = 'room cont clearfix']:first-child .room-info>h3");
-    By firstRoomBookButton = By.cssSelector("#room-1-rateplan-1 .cta");
-    By paymentPreferencePopup = By.className("payment-preference-overlay-content");
-    By payNowButton = By.cssSelector("[class='payment-option pay-now'] [type='submit']");
+    private By displayedHotelName = By.cssSelector(".vcard>h1");
+    private By firstRoomName = By.cssSelector("[class = 'room cont clearfix']:first-child .room-info>h3");
+    private By firstRoomBookButton = By.cssSelector("#room-1-rateplan-1 .cta");
+    private By paymentPreferencePopup = By.className("payment-preference-overlay-content");
+    private By payNowButton = By.cssSelector("[class='payment-option pay-now'] [type='submit']");
 
     public String getFirstRoomName() {
         return driver.findElement(firstRoomName).getText();

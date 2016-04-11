@@ -6,31 +6,31 @@ import org.openqa.selenium.By;
 
 
 public class BookingForm {
-    WebDriver driver;
+    private WebDriver driver;
 
-    public BookingForm(WebDriver x) {
+    BookingForm(WebDriver x) {
         driver = x;
     }
 
-    By roomTypeInTheFinancialColumn = By.className("room-type");
+    private By roomTypeInTheFinancialColumn = By.className("room-type");
 
-    By firstNameAtRoomDetails = By.id("room-details-room-0-first-name");
-    By lastNameAtRoomDetails = By.id("room-details-room-0-last-name");
+    private By firstNameAtRoomDetails = By.id("room-details-room-0-first-name");
+    private By lastNameAtRoomDetails = By.id("room-details-room-0-last-name");
 
-    By firstNameAtPaymentDetails = By.id("payment-details-first-name");
-    By lastNameAtPaymentDetails = By.id("payment-details-last-name");
+    private By firstNameAtPaymentDetails = By.id("payment-details-first-name");
+    private By lastNameAtPaymentDetails = By.id("payment-details-last-name");
 
-    By cardNumber = By.id("payment-details-card-number");
-    By cvv = By.id("payment-details-cvv");
+    private By cardNumber = By.id("payment-details-card-number");
+    private By cvv = By.id("payment-details-cvv");
 
-    By expiryMonth = By.id("payment-details-expiry-month");
+    private By expiryMonth = By.id("payment-details-expiry-month");
 
-    By expiryYear = By.id("payment-details-expiry-year");
+    private By expiryYear = By.id("payment-details-expiry-year");
 
-    By zipCode = By.id("billing-details-post-code");
-    By emailAddress = By.id("contact-details-email");
-    By phoneNumber = By.id("contact-details-phone");
-    By bookButton = By.id("book-button");
+    private By zipCode = By.id("billing-details-post-code");
+    private By emailAddress = By.id("contact-details-email");
+    private By phoneNumber = By.id("contact-details-phone");
+    private By bookButton = By.id("book-button");
 
     public void fillFirstNameAtRoomDetails(String firstName) {
         driver.findElement(firstNameAtRoomDetails).sendKeys(firstName);
