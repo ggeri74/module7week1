@@ -13,6 +13,8 @@ import pages.HomePage;
 import pages.SearchResultPage;
 import pages.HotelDetailsPage;
 import pages.BookingForm;
+import pages.ConfirmationPage;
+
 import lib.Utils;
 
 import java.util.concurrent.TimeUnit;
@@ -95,7 +97,7 @@ public class TestHotelsCom {
         bf.fillZipCode("12345678");
         bf.fillEmailAddress("gergely_glosz@epam.com");
         bf.fillPhoneNumber("5555555666");
-        //ConfirmationPage cp = bf.clickBookButton();
+        ConfirmationPage cp = bf.clickBookButton();
 
         // ----------------- Confirmation Page -------------------------
 
