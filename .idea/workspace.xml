@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2209312c-c3b4-433b-ac6d-bb66e214d0c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="$PROJECT_DIR$/phantomjsdriver.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/BookingForm.java" afterPath="$PROJECT_DIR$/src/pages/BookingForm.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/ConfirmationPage.java" afterPath="$PROJECT_DIR$/src/pages/ConfirmationPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/HomePage.java" afterPath="$PROJECT_DIR$/src/pages/HomePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/HotelDetailsPage.java" afterPath="$PROJECT_DIR$/src/pages/HotelDetailsPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/SearchResultPage.java" afterPath="$PROJECT_DIR$/src/pages/SearchResultPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tests/TestHotelsCom.java" afterPath="$PROJECT_DIR$/src/tests/TestHotelsCom.java" />
     </list>
     <ignored path="Hotels.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestHotelsCom.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestHotelsCom.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/TestHotelsCom.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="206">
@@ -58,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="365">
@@ -71,10 +66,12 @@
       <file leaf-file-name="ConfirmationPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/ConfirmationPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="170">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,8 +100,8 @@
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,6 +144,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -172,9 +170,9 @@
         <option value="$PROJECT_DIR$/src/pages/SearchResultPage.java" />
         <option value="$PROJECT_DIR$/src/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/pages/BookingForm.java" />
-        <option value="$PROJECT_DIR$/src/pages/HotelDetailsPage.java" />
-        <option value="$PROJECT_DIR$/src/pages/ConfirmationPage.java" />
         <option value="$PROJECT_DIR$/src/tests/testng.xml" />
+        <option value="$PROJECT_DIR$/src/pages/ConfirmationPage.java" />
+        <option value="$PROJECT_DIR$/src/pages/HotelDetailsPage.java" />
       </list>
     </option>
   </component>
@@ -303,7 +301,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="TestNG.C:/homework/Hotels/src/tests/testng.xml">
+  <component name="RunManager" selected="TestNG.TestHotelsCom.testEndToEndBookingFlowFirefox">
     <configuration default="false" name="TestHotelsCom.searchForBooking" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -673,8 +671,8 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.C:/homework/Hotels/src/tests/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestHotelsCom.testEndToEndBookingFlowFirefox" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestHotelsCom.testEndToEndBookingFlowFirefox" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.C:/homework/Hotels/src/tests/testng.xml" />
         <item index="2" class="java.lang.String" itemvalue="TestNG.TestHotelsCom" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.TestHotelsCom.searchForBooking" />
       </list>
@@ -694,12 +692,17 @@
       <option name="presentableId" value="Default" />
       <updated>1460019332576</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix access levels">
+      <created>1460386707628</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1460386707628</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="C__homework_Hotels_src_tests_testng_xml - 2016.04.11 at 14h 15m 13s.xml">
-      <configuration name="C:/homework/Hotels/src/tests/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="C__homework_Hotels_src_tests_testng_xml - 2016.04.11 at 14h 15m 39s.xml">
       <configuration name="C:/homework/Hotels/src/tests/testng.xml" configurationId="TestNG" />
     </history-entry>
@@ -725,6 +728,9 @@
       <configuration name="TestHotelsCom.testEndToEndBookingFlowFirefox" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestHotelsCom_testEndToEndBookingFlowFirefox - 2016.04.11 at 14h 32m 16s.xml">
+      <configuration name="TestHotelsCom.testEndToEndBookingFlowFirefox" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestHotelsCom_testEndToEndBookingFlowFirefox - 2016.04.11 at 17h 01m 44s.xml">
       <configuration name="TestHotelsCom.testEndToEndBookingFlowFirefox" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -770,7 +776,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="fix access levels" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix access levels" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -831,6 +838,8 @@
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -855,8 +864,8 @@
           <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -911,8 +920,8 @@
           <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1063,35 +1072,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/HotelDetailsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ConfirmationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/TestHotelsCom.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="365">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,21 +1104,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/Utils.java">
+    <entry file="file://$PROJECT_DIR$/src/pages/ConfirmationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/testng.xml">
+    <entry file="file://$PROJECT_DIR$/src/pages/HotelDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/TestHotelsCom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
